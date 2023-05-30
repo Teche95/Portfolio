@@ -1,13 +1,33 @@
 
+import { useState } from 'react'
 import styles from '../styles/Home.module.css'
-
+import Image from 'next/image'
 
 const Carousell = () => {
-    return (
-        <div className={styles.slide_container}>
-            <div className={styles.slide}>hola</div>
-        </div>
+    const imagenes = ["next.webp", "javascript.webp", "react.png"]
+    const [selectedIndex, setSelectedIndex] = useState(0)
+    const [selectedImage, setSelectedImage] = useState(imagenes[0])
 
+    const previous = () => {
+        const condicion = selectedIndex > 0
+        const nextIndex = condicion ? selectedIndex - 1 : imagenes.length - 1
+        setSelectedIndex(nextIndex)
+        setSelectedImage(imagenes[nextIndex])
+    }
+
+    const next = () => {
+        const condicion = selectedIndex < imagenes.length - 1
+        const nextIndex = condicion ? selectedIndex + 1 : 0
+        setSelectedIndex(nextIndex)
+        setSelectedImage(imagenes[nextIndex])
+    }
+
+    return (
+        <>
+            <Image src={require(`../public/images/carousel/${selectedImage}`).default} alt="sdsd" />
+            <button onClick={previous}>{"<"}</button>
+            <button onClick={next}>{">"}</button>
+        </>
     )
 }
 
