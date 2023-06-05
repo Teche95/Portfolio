@@ -24,8 +24,8 @@ const Carousell = () => {
 
     return (
         <>
-            <Image src={require(`../public/images/carousel/${selectedImage}`).default} alt="sdsd" />
             <button onClick={previous}>{"<"}</button>
+            <Image width="900" height="500" src={require(`../public/images/carousel/${selectedImage}`).default} alt="sdsd" />
             <button onClick={next}>{">"}</button>
         </>
     )

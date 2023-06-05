@@ -1,16 +1,17 @@
 
-import Image from 'next/image';
 import styles from '../styles/Home.module.css'
-import Carousell from './Carousel';
-// import Carousell from '..';
+import Grid_Proyects from './Grid_Proyects';
+import style from "../styles/proyectos.module.css"
+
 const Proyectos = () => {
+
     let inicio = "<Proyectos>"
     let final = "</Proyectos>"
     return (
-        <div className={styles.container}>
+        <div className={style.container}>
             <h4>{inicio}</h4>
             <section id="proyectos">
-              <Carousell/>
+              <Grid_Proyects/>
             </section>
             <h4>{final}</h4>
         </div>

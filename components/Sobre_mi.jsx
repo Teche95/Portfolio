@@ -23,7 +23,7 @@ const SobreMi = () => {
 
         <div className={styles.img}>
           <div className={styles.img2}>
-            <Image width="400" height="460" src="/images/112-1127696_software-developer-hd-png-download-removebg.png" />
+            <Image width="400" height="460" src="/images/112-1127696_software-developer-hd-png-download-removebg.webp" alt="software engineer" priority />
           </div>
         </div>
 
