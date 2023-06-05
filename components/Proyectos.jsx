@@ -9,11 +9,11 @@ const Proyectos = () => {
     let final = "</Proyectos>"
     return (
         <div className={style.container}>
-            <h4>{inicio}</h4>
             <section id="proyectos">
+            <h4>{inicio}</h4>
               <Grid_Proyects/>
-            </section>
             <h4>{final}</h4>
+            </section>
         </div>
     )
 }

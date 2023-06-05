@@ -2,19 +2,11 @@
 import Image from "next/image";
 import calatheamarket from "../public/images/grid_proyects/calathea-market.webp"
 import PI_VideoJuegos from "../public/images/grid_proyects/PI_VideoJuegos.webp"
-import giphy from "../public/images/grid_proyects/giphy.webp"
 import styles from "../styles/proyectos.module.css"
-import { DiReact } from "react-icons/di";
 import { IoLogoFirebase } from "react-icons/io5";
-import { DiNodejsSmall } from "react-icons/di";
-import { SiExpress } from "react-icons/si";
-import { DiCss3Full } from "react-icons/di";
-import { SiPostgresql } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
-import { SiSequelize } from "react-icons/si";
-import { SiRedux } from "react-icons/si";
+import { DiNodejsSmall, DiCss3Full, DiReact } from "react-icons/di";
+import { SiExpress, SiPostgresql, SiJavascript, SiSequelize, SiRedux } from "react-icons/si";
 
-// import projectimage03 from "../public/images/grid_proyects/project-image03.png"
 
 let ListaDeProyectos = [
     {
