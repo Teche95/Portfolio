@@ -2,12 +2,15 @@ import Contacto from "@/components/Contacto"
 import Proyectos from "@/components/Proyectos"
 import SobreMi from "@/components/Sobre_mi"
 import Tecnologias from "@/components/Tecnologias"
+import Head from "next/head"
 // import { SmoothScrollProvider } from "@/components/Scroll"
 
 const PaginaPrincipal = () => {
     return (
         <>
-            <title>Porfolio</title>
+            <Head>
+                <title>Portfolio</title>
+            </Head>
             <SobreMi />
             <Proyectos />
             <Tecnologias />
