@@ -6,8 +6,8 @@ import styles from "../styles/proyectos.module.css"
 import { IoLogoFirebase } from "react-icons/io5";
 import { DiNodejsSmall, DiCss3Full, DiReact } from "react-icons/di";
 import { SiExpress, SiPostgresql, SiJavascript, SiSequelize, SiRedux } from "react-icons/si";
-import { HiOutlineExternalLink } from "react-icons/Hi"
-import { BsGithub } from "react-icons/Bs"
+import { HiOutlineExternalLink } from "react-icons/hi"
+import { BsGithub } from "react-icons/bs"
 
 let ListaDeProyectos = [
     {
