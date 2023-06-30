@@ -10,6 +10,7 @@ const PaginaPrincipal = () => {
         <>
             <Head>
                 <title>Portfolio</title>
+                <link rel="preload" href="https://fonts.googleapis.com" />
             </Head>
             <SobreMi />
             <Proyectos />
