@@ -7,6 +7,7 @@ import Tecnologias from "@/components/Tecnologias"
 const PaginaPrincipal = () => {
     return (
         <>
+            <title>Porfolio</title>
             <SobreMi />
             <Proyectos />
             <Tecnologias />
