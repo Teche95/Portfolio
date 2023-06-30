@@ -2,7 +2,7 @@ import Contacto from "@/components/Contacto"
 import Proyectos from "@/components/Proyectos"
 import SobreMi from "@/components/Sobre_mi"
 import Tecnologias from "@/components/Tecnologias"
-
+// import { SmoothScrollProvider } from "@/components/Scroll"
 
 const PaginaPrincipal = () => {
     return (
@@ -14,6 +14,8 @@ const PaginaPrincipal = () => {
         </>
     )
 }
+// <SmoothScrollProvider options={{ smooth: true }}>
+// </SmoothScrollProvider>
 
 export default PaginaPrincipal
 

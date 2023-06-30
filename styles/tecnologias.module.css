@@ -1,0 +1,43 @@
+.container {
+    display              : grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items        : center;
+    gap                  : 3rem 10rem;
+}
+
+.image {
+    filter    : grayscale(100%);
+    transition: filter 0.50s;
+}
+
+.image:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.images {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    position      : relative;
+    height        : 150px;
+
+}
+
+.nametec {
+    position  : absolute;
+    bottom    : 0;
+    opacity   : 0;
+    transition: all 400ms ease-out;
+    cursor    : pointer;
+}
+
+.nametec a {
+    text-decoration: none;
+    color          : white;
+}
+
+.images:hover .nametec {
+    opacity      : 1;
+    margin-bottom: 15px;
+}

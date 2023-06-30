@@ -11,29 +11,27 @@ html {
   overflow-y             : scroll;
 } */
 
-
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box
+}
 
 
 body {
-  background  : #1d1e1f;
+  /* background  : #1d1e1f; */
+  background         : #27272c;
+  /* background      : linear-gradient(to bottom, #000000, #333333); */
+  /* background-image: linear-gradient(to left top, #1d1e1f, #20262b, #222e38, #243645, #253e52, #283b50, #2b384e, #2e354c, #2c2738, #231b25, #171014, #000000); */
+
   color       : white;
   max-width   : 1150px;
   margin-left : auto;
   margin-right: auto;
-  font-family: 'Maven Pro', sans-serif;
-  
-}
+  font-family : 'Maven Pro', sans-serif;
 
-/* section { */
-  /* height              : 100vh; */
-  /* display          : flex; */
-  /* justify-content  : center; */
-  /* align-items      : center; */
-  /* scroll-snap-align: start; */
-/* } */
+}
 
 p {
   font-size: 1.1rem;
 }
-
-

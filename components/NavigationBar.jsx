@@ -2,7 +2,8 @@
 import styles from "../styles/nav.module.css"
 import { Link } from "react-scroll";
 const NavigationBar = () => {
-
+    // let init = "<01>"
+    // let pro = "<02>"
     return (
         <nav className={styles.navH}>
             <ul>

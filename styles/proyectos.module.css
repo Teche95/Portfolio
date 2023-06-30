@@ -1,47 +1,37 @@
 .grid_container {
     display              : grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-items        : center;
+    gap                  : 6rem
 }
 
 .images {
     border-radius: 9px;
     height       : 100%;
+    width        : 100%;
     cursor       : pointer;
-
-
 }
 
 .grid_container .image {
-    position        : relative;
-    cursor          : pointer;
-    overflow        : hidden;
-    border-radius   : 9px;
-  
+    position     : relative;
+    cursor       : pointer;
+    overflow     : hidden;
+    border-radius: 9px;
 
 }
 
 .grid_container .image .images {
-    /* width      : 100%; */
-    /* height     : 100%; */
-    transition : all 500ms ease-out;
-    will-change: transform;
-    
-
+    transition: all 500ms ease-out;
 }
 
 .grid_container .image .image-info {
-    position  : absolute;
-    /* top       : 0; */
-    bottom: 0;
-    width     : 100%;
-    height    : 100%;
-    background: rgba(63, 63, 63, 0.623);
-    transition: all 400ms ease-out;
-    opacity   : 0;
-    visibility: hidden;
-    /* text-align: center; */
-    /* padding-top: 100rem; */
+    position    : absolute;
+    bottom      : 0;
+    width       : 100%;
+    height      : 100%;
+    background  : rgba(63, 63, 63, 0.623);
+    transition  : all 400ms ease-out;
+    opacity     : 0;
+    visibility  : hidden;
     padding-left: 1.5rem;
 }
 
@@ -50,38 +40,24 @@
     visibility: visible;
 }
 
-
 .grid_container .image:hover>.image-info h2 {
-    margin-top      : 120px;
-    margin-right    : 120px;
-    /* top          :0 */
-    /* margin-bottom: 15px; */
+    margin-top  : 120px;
+    margin-right: 120px;
 }
-
-/* .grid_container .image:hover>.image-info p {
-    margin-top   : 50px;
-    margin-bottom: 100px;
-} */
 
 .grid_container .image:hover>.images {
     transform: scale(1.1);
 }
 
 .grid_container .image .image-info h2 {
-    /* color        : #fff; */
-    /* font-weight  : 400; */
-    /* margin-bottom: 120px; */
-    transition  : all 400ms ease-out;
-    margin-top  : 200px;
-    /* margin-right: 120px; */
+    transition: all 400ms ease-out;
+    margin-top: 200px;
 }
 
 .grid_container .image .image-info p {
-    font-size     : 15px;
-    line-height   : 1.5;
-    width         : 100%;
-    /* max-width  : 220px; */
-    /* margin     : auto; */
+    font-size  : 15px;
+    line-height: 1.5;
+    width      : 100%;
 }
 
 .container h4 {
@@ -94,4 +70,105 @@
 
 .container h4:last-child {
     margin-top: 5rem;
+}
+
+.tecs {
+    margin-top: 1rem;
+    display   : flex;
+    gap       : .5rem;
+}
+
+.btns {
+    display   : flex;
+    margin-top: .8rem;
+    gap       : .5rem;
+}
+
+.btns a {
+    text-decoration: none;
+
+}
+
+.deployButton {
+    display      : flex;
+    gap          : .6rem;
+    align-items  : center;
+    background   : rgba(41, 41, 41, 0.863);
+    color        : white;
+    border       : none;
+    padding      : 8px 11px;
+    cursor       : pointer;
+    border-radius: 9px;
+    transition   : 0.3s ease
+}
+
+.deployButton:hover {
+    color           : white;
+    background-color: rgba(77, 76, 76, 0.478)
+}
+
+.githubButton {
+    display      : flex;
+    gap          : .6rem;
+    align-items  : center;
+    background   : rgba(41, 41, 41, 0.863);
+    color        : white;
+    border       : none;
+    padding      : 8px 11px;
+    cursor       : pointer;
+    border-radius: 9px;
+    transition   : 0.3s ease
+}
+
+.githubButton:hover {
+    color           : white;
+    background-color: rgba(77, 76, 76, 0.478)
+}
+
+
+.inicio {
+    display: flex;
+    gap    : 2rem
+}
+
+.proyectosText {
+    text-align      : center;
+    position        : relative;
+    /* margin-bottom: 80px; */
+
+    display: block;
+}
+
+.proyectosText::after {
+    content      : "";
+    position     : absolute;
+    background   : #F5691A;
+    border-radius: 25px;
+    height       : 5px;
+    margin-top   : 14px;
+    width        : 35px;
+    left         : 50%;
+    top          : 1.5rem;
+    transform    : translateX(-50%);
+}
+
+.proyectosTextdif {
+    text-align   : center;
+    position     : relative;
+    margin-top   : 90px;
+    margin-bottom: 80px;
+    display      : block;
+}
+
+.proyectosTextdif::after {
+    content      : "";
+    position     : absolute;
+    background   : #F5691A;
+    border-radius: 25px;
+    height       : 5px;
+    margin-top   : 14px;
+    width        : 35px;
+    left         : 50%;
+    top          : 1.5rem;
+    transform    : translateX(-50%);
 }
