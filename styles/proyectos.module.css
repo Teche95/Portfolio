@@ -1,7 +1,9 @@
+
 .grid_container {
     display              : grid;
     grid-template-columns: repeat(2, 1fr);
-    gap                  : 6rem
+    gap                  : 6rem;
+    margin-bottom: 200px;
 }
 
 .images {
