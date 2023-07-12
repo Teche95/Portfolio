@@ -1,5 +1,5 @@
 
-import styles from '../styles/Home.module.css'
+import styles from '../styles/proyectos.module.css'
 import Grid_Proyects from './Grid_Proyects';
 import style from "../styles/proyectos.module.css"
 
@@ -12,7 +12,7 @@ const Proyectos = () => {
     // );
 
     return (
-        <div className={style.container}>
+        <div className={styles.container}>
             <section id="proyectos">
                 <h3 className={style.proyectosTextdif}>PROYECTOS</h3>
                 <Grid_Proyects />
