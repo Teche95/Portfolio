@@ -74,7 +74,7 @@ const Grid_Proyects = () => {
                             width={515}
                             height={310}
                             alt={proyecto.nombre}
-                            priority={false}
+                            priority
                         />
                         <div className={styles["image-info"]}>
                             <h2>{proyecto.nombre}</h2>

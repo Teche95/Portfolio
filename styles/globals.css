@@ -1,37 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700&display=swap');
 
-/* body,
-html {
-  margin                 : 0;
-  padding                : 0;
-  scroll-snap-type    : mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type       : y mandatory;
-  height                 : 100vh;
-  overflow-y             : scroll;
-} */
-
 * {
   margin    : 0;
   padding   : 0;
   box-sizing: border-box
 }
 
-
 body {
-  /* background  : #1d1e1f; */
-  background         : #27272c;
-  /* background      : linear-gradient(to bottom, #000000, #333333); */
-  /* background-image: linear-gradient(to left top, #1d1e1f, #20262b, #222e38, #243645, #253e52, #283b50, #2b384e, #2e354c, #2c2738, #231b25, #171014, #000000); */
-
-  color       : white;
-  max-width   : 1150px;
-  margin-left : auto;
-  margin-right: auto;
-  font-family : 'Maven Pro', sans-serif;
-
+  background : #27272c;
+  color      : white;
+  max-width  : 1150px;
+  margin     : 0 auto;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 p {
   font-size: 1.1rem;
+}
+
+@media (max-width: 820px) {
+  body {
+    display  : flex;
+
+
+  }
 }

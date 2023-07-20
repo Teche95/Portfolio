@@ -18,7 +18,7 @@ import Image from 'next/image';
 const tecs = [
   {
     id: 1,
-    nombre: "Javascript",
+    nombre: "JavaScript",
     web: "https://developer.mozilla.org/es/docs/Web/JavaScript",
     image: javascript
   },
