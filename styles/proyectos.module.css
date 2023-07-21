@@ -43,7 +43,7 @@
 
 .grid_container .image:hover>.image-info h2 {
     margin-top  : 120px;
-    margin-right: 120px;
+    /* margin-right: 120px; */
 }
 
 .grid_container .image:hover>.images {
@@ -177,8 +177,14 @@
 @media (max-width:820px) {
     .grid_container {
         grid-template-columns: repeat(1, 2fr);
-        margin               : 100px 
+        margin               : 100px
     }
 
+    .grid_container .image .image-info h2 {
+        margin-top: 400px;
+    }
 
+    .grid_container .image:hover>.image-info h2 {
+        margin-top  : 350px;
+    }
 }
