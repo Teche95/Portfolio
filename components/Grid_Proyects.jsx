@@ -36,7 +36,7 @@ let ListaDeProyectos = [
         id: 2,
         nombre: "Video games app",
         descripcion: "Aplicación tipo biblioteca de juegos",
-        deployLink: "https://www.google.com.ar/",
+        deployLink: "",
         repositorio: "https://github.com/Teche95/Pi-videogames",
         tecnologias: [
             { icono: <SiPostgresql size="1.7rem" color="#30628A" /> },

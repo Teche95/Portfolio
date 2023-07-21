@@ -132,8 +132,6 @@
     gap    : 2rem
 }
 
-
-
 .proyectosTextdif {
     text-align   : center;
     position     : relative;
@@ -182,8 +180,6 @@
     }
 
     .grid_container .image .image-info p {
-        font-size  : 35px;
-        /* line-height: 1.5; */
-        /* width      : 100%; */
+        font-size: 35px;
     }
 }
