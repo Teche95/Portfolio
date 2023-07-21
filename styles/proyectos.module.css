@@ -180,6 +180,8 @@
 
     .grid_container .image .image-info h2 {
         margin-top: 400px;
+        font-size : 35px;
+
     }
 
     .grid_container .image:hover>.image-info h2 {
