@@ -187,11 +187,12 @@
     }
 
     .proyectosTextdif {
-        font-size: 30px;
+        font-size: 40px;
 
     }
 
     .proyectosTextdif::after {
-        margin-top: 20px;
+        margin-top: 30px;
+        width     : 50px;
     }
 }
