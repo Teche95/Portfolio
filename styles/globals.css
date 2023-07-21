@@ -21,7 +21,7 @@ p {
 @media (max-width: 820px) {
   body {
     display  : flex;
-
+    /* max-width: 200px; */
 
   }
 }
