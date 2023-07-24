@@ -160,13 +160,13 @@
     }
 
     .grid_container .image .image-info h2 {
-        margin-top: 350px;
+        margin-top: 300px;
         font-size : 45px;
 
     }
 
     .grid_container .image:hover>.image-info h2 {
-        margin-top: 300px;
+        margin-top: 250px;
     }
 
     .proyectosTextdif {
@@ -197,7 +197,7 @@
     }
 
     .tecno{
-        width : 40px;
-        height: 40px;
+        width : 45px;
+        height: 45px;
     }
 }
