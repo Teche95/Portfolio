@@ -24,7 +24,7 @@
 }
 
 .textoContacto {
-    font-size    : 20px;
+    font-size    : 20em;
     margin-bottom: 2rem;
 }
 
@@ -42,7 +42,7 @@
 
 @media (max-width:820px) {
     .textoContacto {
-        font-size: 31px;
+        /* font-size: 31em; */
 
     }
 }
