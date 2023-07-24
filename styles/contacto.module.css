@@ -24,7 +24,7 @@
 }
 
 .textoContacto {
-    font-size    : 20em;
+    font-size    : 1.3em;
     margin-bottom: 2rem;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .contacto>p {
-    max-width  : 39ch;
+    max-width  : 40ch;
     line-height: 1.6;
     text-wrap  : balance;
 }
