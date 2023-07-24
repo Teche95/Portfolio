@@ -25,17 +25,21 @@
 }
 
 .nametec {
-    position  : absolute;
-    bottom    : 0;
-    opacity   : 0;
-    transition: all 400ms ease-out;
-    cursor    : pointer;
+    position     : absolute;
+    bottom       : 0;
+    opacity      : 0;
+    transition   : all 400ms ease-out;
+    cursor       : pointer;
+    /* background: red; */
 }
 
 .nametec a {
     text-decoration: none;
     color          : white;
+
 }
+
+
 
 .images:hover .nametec {
     opacity      : 1;
@@ -51,8 +55,11 @@
         filter: grayscale(0%);
     }
 
-    .nametec{
+    .nametec {
         opacity: 1;
     }
 
+    .nametec p {
+        font-size: 30px;
+    }
 }

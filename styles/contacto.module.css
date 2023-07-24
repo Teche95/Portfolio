@@ -35,6 +35,14 @@
 }
 
 .contacto>p {
-    max-width  : 504px;
+    max-width  : 39ch;
     line-height: 1.6;
+    text-wrap  : balance;
+}
+
+@media (max-width:820px) {
+    .textoContacto {
+        font-size: 28px;
+
+    }
 }
