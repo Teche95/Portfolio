@@ -15,7 +15,7 @@
     justify-content: center;
     align-items    : center;
     transition     : 0.4s ease;
-    margin-bottom: 30px;
+    margin-bottom  : 30px;
 }
 
 .iconLink:hover {
@@ -45,8 +45,9 @@
     .textoContacto {
         font-size: 2em;
     }
-    .tamañoBoton{
-        width: 60px;
+
+    .tamañoBoton {
+        width : 60px;
         height: 60px;
     }
 }
