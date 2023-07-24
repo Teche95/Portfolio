@@ -17,11 +17,11 @@ let ListaDeProyectos = [
         deployLink: "https://api-plants-b6153.web.app/",
         repositorio: "https://github.com/Teche95/Proyecto-Final",
         tecnologias: [
-            { icono: <DiReact size="1.7rem" color="#5CCFEE" /> },
-            { icono: <IoLogoFirebase size="1.7rem" color="#F2BF26" /> },
-            { icono: <DiNodejsSmall size="1.7rem" color="#4F9640" /> },
-            { icono: <SiExpress size="1.7rem" color="white" /> },
-            { icono: <DiCss3Full size="1.7rem" color="#3492CB" /> },
+            { icono: <DiReact size="2rem" color="#5CCFEE" className={styles.tecno} /> },
+            { icono: <IoLogoFirebase size="2rem" color="#F2BF26" className={styles.tecno} /> },
+            { icono: <DiNodejsSmall size="2rem" color="#4F9640" className={styles.tecno} /> },
+            { icono: <SiExpress size="2rem" color="white" className={styles.tecno} /> },
+            { icono: <DiCss3Full size="2rem" color="#3492CB" className={styles.tecno} /> },
         ],
         webs: [
             "https://es.react.dev/",
@@ -39,13 +39,13 @@ let ListaDeProyectos = [
         deployLink: "",
         repositorio: "https://github.com/Teche95/Pi-videogames",
         tecnologias: [
-            { icono: <SiPostgresql size="1.7rem" color="#30628A" /> },
-            { icono: <SiJavascript size="1.7rem" color="#E4D04B" /> },
-            { icono: <SiSequelize size="1.7rem" color="#4EA7DB" /> },
-            { icono: <SiExpress size="1.7rem" color="white" /> },
-            { icono: <SiRedux size="1.7rem" color="#7046B2" /> },
-            { icono: <DiReact size="1.7rem" color="#5CCFEE" /> },
-            { icono: <DiCss3Full size="1.7rem" color="#3492CB" /> }
+            { icono: <SiPostgresql size="2rem" color="#30628A" className={styles.tecno} /> },
+            { icono: <SiJavascript size="2rem" color="#E4D04B" className={styles.tecno} /> },
+            { icono: <SiSequelize size="2rem" color="#4EA7DB" className={styles.tecno} /> },
+            { icono: <SiExpress size="2rem" color="white" className={styles.tecno} /> },
+            { icono: <SiRedux size="2rem" color="#7046B2" className={styles.tecno} /> },
+            { icono: <DiReact size="2rem" color="#5CCFEE" className={styles.tecno} /> },
+            { icono: <DiCss3Full size="2rem" color="#3492CB" className={styles.tecno} /> }
         ],
         webs: [
             "https://www.postgresql.org/",
@@ -90,13 +90,13 @@ const Grid_Proyects = () => {
                                 <a href={proyecto.deployLink} target="_blank" rel="noopener noreferrer">
                                     <button className={styles.deployButton}>
                                         Deploy
-                                        <HiOutlineExternalLink size="1.1rem" />
+                                        <HiOutlineExternalLink size="1.1rem" className={styles.sizebutton} />
                                     </button>
                                 </a>
                                 <a href={proyecto.repositorio} target="_blank" rel="noopener noreferrer">
                                     <button className={styles.githubButton}>
                                         GitHub
-                                        <BsGithub size="1.1rem" />
+                                        <BsGithub size="1.1rem" className={styles.sizebutton} />
                                     </button>
                                 </a>
                             </div>
