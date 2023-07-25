@@ -1,6 +1,8 @@
 .sobremi {
   display    : flex;
   align-items: center;
+  /* background: red; */
+
 }
 
 .container {
@@ -31,7 +33,8 @@
 }
 
 .text h1 {
-  font-size     : 2.7em;
+  /* font-size     : 2.7em; */
+  /* background: red; */
   /* font-family: 'Maven Pro', sans-serif */
 }
 
@@ -189,5 +192,9 @@
   .sobremi {
     flex-direction     : column;
     
+  }
+
+  .hola {
+    font-size: 33px;
   }
 }
