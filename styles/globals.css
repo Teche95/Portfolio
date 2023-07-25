@@ -8,8 +8,8 @@
 }
 
 body {
-  /* background : #27272c; */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.466)), url(../public/fancy-pants.jpg);
+  background : #27272c;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.466)), url(../public/fancy-pants.jpg); */
   /* background-color; */
   color      : white;
   max-width  : 1150px;
