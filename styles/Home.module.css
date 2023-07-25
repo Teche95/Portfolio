@@ -201,4 +201,8 @@
   .animateditem {
     font-size: 57px;
   }
+
+  .text p {
+    font-size: 25px;
+  }
 }
