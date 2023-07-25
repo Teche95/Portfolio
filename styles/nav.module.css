@@ -19,7 +19,6 @@
 .lis li {
     font-size    : 20px;
     cursor       : pointer;
-    /* background: red; */
 }
 
 @media (max-width:820px) {

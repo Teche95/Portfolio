@@ -190,8 +190,8 @@
 
 @media (max-width: 820px) {
   .sobremi {
-    flex-direction: column;
-
+    /* flex-direction: column; */
+    margin: 100px
   }
 
   .hola {
