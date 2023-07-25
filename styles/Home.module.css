@@ -1,6 +1,6 @@
 .sobremi {
-  display    : flex;
-  align-items: center;
+  display      : flex;
+  align-items  : center;
   /* background: red; */
 
 }
@@ -190,11 +190,15 @@
 
 @media (max-width: 820px) {
   .sobremi {
-    flex-direction     : column;
-    
+    flex-direction: column;
+
   }
 
   .hola {
     font-size: 40px;
+  }
+
+  .animateditem {
+    font-size: 57px;
   }
 }
