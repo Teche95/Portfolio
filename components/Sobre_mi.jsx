@@ -28,6 +28,7 @@ const SobreMi = () => {
           {/* <button className={styles.botonMagic}>Descargar CV</button> */}
 
           <div className={styles.container}>
+
             <a href="/CV Gustavo Techeira.pdf" download="CV Gustavo Techeira" className={styles.cta}>
               <span>Descargar CV</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" ><path d="M12 17V3" /><path d="m6 11 6 6 6-6" /><path d="M19 21H5" />
@@ -37,19 +38,21 @@ const SobreMi = () => {
             <a
               href={"https://www.linkedin.com/in/gustavo-julian-techeira-bb74681b8/"}
               className={styles.iconLink}>
-              <Linkedin strokeWidth={1.75} size={32} color="#A8A8A8" />
+              <Linkedin strokeWidth={1.75} size={32} color="#A8A8A8" className={styles.tamañoBoton}/>
             </a>
 
             <a href={"https://github.com/Teche95"}
               className={styles.iconLink}>
-              <Github strokeWidth={1.75} size={32} color="#A8A8A8" />
+              <Github strokeWidth={1.75} size={32} color="#A8A8A8" className={styles.tamañoBoton}/>
             </a>
 
             <a href={"mailto:julian.techeira9@gmail.com"}
               className={styles.iconLink}>
-              <Mail strokeWidth={1.75} size={32} color="#A8A8A8" />
+              <Mail strokeWidth={1.75} size={32} color="#A8A8A8" className={styles.tamañoBoton}/>
             </a>
+
           </div>
+
         </div>
         <div className={styles.img}>
           <div className={styles.img2}>

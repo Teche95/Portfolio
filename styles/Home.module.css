@@ -6,9 +6,11 @@
 }
 
 .container {
-  display    : flex;
-  align-items: center;
-  margin-top : 43px;
+  display            : flex;
+  align-items        : center;
+  margin-top         : 43px;
+  /* background-color: red; */
+
 }
 
 .container span {
@@ -131,13 +133,14 @@
 
 
 .cta {
-  display        : flex;
-  align-items    : center;
-  text-decoration: none;
-  color          : inherit;
-  position       : relative;
-  padding        : 19px 22px;
-  max-width      : 35%;
+  display         : flex;
+  align-items     : center;
+  text-decoration : none;
+  color           : inherit;
+  position        : relative;
+  padding         : 19px 22px;
+  max-width       : 35%;
+  /* background-color: red; */
 }
 
 .cta:before {
@@ -194,6 +197,11 @@
     margin: 100px
   }
 
+  .tamañoBoton {
+    width : 60px;
+    height: 60px;
+  }
+
   .hola {
     font-size: 40px;
   }
@@ -204,5 +212,14 @@
 
   .text p {
     font-size: 34px;
+  }
+
+  .cta {
+    margin-right: 50px;
+    max-width   : 60%;
+  }
+
+  .cta span {
+    font-size: 2rem;
   }
 }
