@@ -1,7 +1,7 @@
 
 import Image from "next/image";
-import calatheamarket from "../public/images/grid_proyects/calathea-market.avif"
-import PI_VideoJuegos from "../public/images/grid_proyects/PI_VideoJuegos.avif"
+import calathea5 from "../public/images/grid_proyects/calathea5.png"
+import  juegos1 from "../public/images/grid_proyects/juegos1.png"
 import styles from "../styles/proyectos.module.css"
 import { IoLogoFirebase } from "react-icons/io5";
 import { DiNodejsSmall, DiCss3Full, DiReact } from "react-icons/di";
@@ -30,7 +30,8 @@ let ListaDeProyectos = [
             "https://expressjs.com/es/",
             "https://developer.mozilla.org/es/docs/Web/CSS"
         ],
-        image: calatheamarket
+        // image: calatheamarket
+        image: calathea5
     },
     {
         id: 2,
@@ -56,7 +57,8 @@ let ListaDeProyectos = [
             "https://es.react.dev/",
             "https://developer.mozilla.org/es/docs/Web/CSS"
         ],
-        image: PI_VideoJuegos
+        // image: PI_VideoJuegos
+        image: juegos1
     },
 
 
