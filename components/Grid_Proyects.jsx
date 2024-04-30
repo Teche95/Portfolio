@@ -1,17 +1,74 @@
 
 import Image from "next/image";
 import calathea5 from "../public/images/grid_proyects/calathea5.png"
-import  juegos1 from "../public/images/grid_proyects/juegos1.png"
+import juegos1 from "../public/images/grid_proyects/juegos1.png"
+import huella_amiga from "../public/images/grid_proyects/huella_amiga.webp"
+import edtech from "../public/images/grid_proyects/edtech.webp"
 import styles from "../styles/proyectos.module.css"
-import { IoLogoFirebase } from "react-icons/io5";
+import { IoLogoFirebase, IoLogoDocker } from "react-icons/io5";
 import { DiNodejsSmall, DiCss3Full, DiReact } from "react-icons/di";
-import { SiExpress, SiPostgresql, SiJavascript, SiSequelize, SiRedux } from "react-icons/si";
+import { SiExpress, SiPostgresql, SiJavascript, SiSequelize, SiRedux, SiTailwindcss,SiSpringboot  } from "react-icons/si";
 import { HiOutlineExternalLink } from "react-icons/hi"
 import { BsGithub } from "react-icons/bs"
+import { TbBrandCSharp } from "react-icons/tb";
+import { FaJava } from "react-icons/fa";
 
 let ListaDeProyectos = [
     {
-        id: 1,
+        id: 4,
+        nombre: "EdTech",
+        descripcion: "Plataforma de gestion educativa",
+        // deployLink: ,
+        repositorio: "https://github.com/No-Country/s14-19-t-java",
+        tecnologias: [
+            { icono: <SiJavascript size="2rem" color="#E4D04B" className={styles.tecno} /> },
+            { icono: <FaJava size="2rem" color="white" className={styles.tecno} /> },
+            { icono: <SiSpringboot size="2rem" color="#30628A" className={styles.tecno} /> },
+            { icono: <IoLogoDocker size="2rem" color="#4EA7DB" className={styles.tecno} /> },
+            { icono: <SiTailwindcss size="2rem" color="#7046B2" className={styles.tecno} /> },
+            { icono: <DiReact size="2rem" color="#5CCFEE" className={styles.tecno} /> },
+        ],
+        webs: [
+            "https://www.postgresql.org/",
+            "https://developer.mozilla.org/es/docs/Web/JavaScript",
+            // "https://sequelize.org/",
+            // "https://expressjs.com/es/",
+            // "https://redux.js.org/",
+            "https://es.react.dev/",
+            // "https://developer.mozilla.org/es/docs/Web/CSS"
+        ],
+        // image: PI_VideoJuegos
+        image: edtech
+    },
+    {
+        id: 3,
+        nombre: "Huella Amiga",
+        descripcion: "Clinica veterinaria para agendar citas medicas",
+        deployLink: "https://huella-amiga.vercel.app/",
+        repositorio: "https://github.com/No-Country/c16-79-t-csharp",
+        tecnologias: [
+            { icono: <SiJavascript size="2rem" color="#E4D04B" className={styles.tecno} /> },
+            { icono: <TbBrandCSharp size="2rem" color="white" className={styles.tecno} /> },
+            { icono: <SiPostgresql size="2rem" color="#30628A" className={styles.tecno} /> },
+            { icono: <IoLogoDocker size="2rem" color="#4EA7DB" className={styles.tecno} /> },
+            { icono: <SiTailwindcss size="2rem" color="#7046B2" className={styles.tecno} /> },
+            { icono: <DiReact size="2rem" color="#5CCFEE" className={styles.tecno} /> },
+            { icono: <DiCss3Full size="2rem" color="#3492CB" className={styles.tecno} /> }
+        ],
+        webs: [
+            "https://www.postgresql.org/",
+            "https://developer.mozilla.org/es/docs/Web/JavaScript",
+            // "https://sequelize.org/",
+            // "https://expressjs.com/es/",
+            // "https://redux.js.org/",
+            "https://es.react.dev/",
+            "https://developer.mozilla.org/es/docs/Web/CSS"
+        ],
+        // image: PI_VideoJuegos
+        image: huella_amiga
+    },
+    {
+        id: 2,
         nombre: "Calathea market",
         descripcion: "Ecommerce de venta de plantas",
         deployLink: "https://api-plants-b6153.web.app/",
@@ -34,7 +91,7 @@ let ListaDeProyectos = [
         image: calathea5
     },
     {
-        id: 2,
+        id: 1,
         nombre: "Video games app",
         descripcion: "Aplicación tipo biblioteca de juegos",
         // deployLink: "",
