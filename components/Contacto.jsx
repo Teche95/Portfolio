@@ -27,7 +27,7 @@ const Contacto = () => {
             className={styles.iconLink}>
             <Mail strokeWidth={1.75} size={32} color="#A8A8A8" className={styles.tamañoBoton} />
           </a>
-
+{/* hola */}
         </div>
       </section>
     </div>
